@@ -1,6 +1,5 @@
 
 import { CustomerReviews,specialOffer,Services,Hero,Subscribe,SuperQuality,Footer, PopularProducts, } from "./sections";
-
 import Nav from "./Components/Nav";
 const App = ()=>(
   <main className="relative">
@@ -14,6 +13,7 @@ const App = ()=>(
   <section className='bg-pale-blue padding'><CustomerReviews/></section>
   <section className="padding-x sm:py-32 py-16"><Subscribe/></section>
   <section className=" bg-black padding-x padding-t pb-8"><Footer/></section>
+
   </main>
 
 );
