@@ -56,3 +56,13 @@
     @apply font-montserrat text-slate-gray text-lg leading-7;
   }
 }
+
+
+@font-face {
+  font-family: roboto;
+  src: url(../src/assets/fonts/roboto/Roboto-Regular.ttf);
+}
+
+:root{
+  --roboto: roboto;
+}
