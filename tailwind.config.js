@@ -5,6 +5,9 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      roboto: "var(--roboto)"
+    },
     fontSize: {
       xs: ['12px', '16px'],
       sm: ['14px', '20px'],
